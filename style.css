@@ -1,0 +1,204 @@
+header{
+  background-color:black;
+  box-sizing: border-box;
+  padding:20px;
+}
+nav{
+  background-color: rgb(255, 210, 190);
+  border-radius:40px;
+  padding:20px;
+}
+ul{
+  border-radius: 20px;
+  background-color: aquamarine;
+  display:flex;
+  justify-content: space-around;
+  align-content: center;
+}
+li{
+  width:140px;
+  height:20px;
+  
+  border-radius: 20px;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  margin:10px;
+}
+a{
+  display: block;
+  background-color:rgb(199, 180, 204);
+  border-radius: 20px;
+  color:black;
+  text-decoration: none;
+}
+a:hover{
+  background-color:rgb(120, 180, 170);
+  color:yellow;
+}
+.sky{
+  height:20px;
+  width:100px;
+}
+
+/* header{
+    background-color:black;
+    height:80px;
+    display:flex;
+    align-items:center;
+    padding: 0 30px;
+    box-sizing:border-box;
+}
+
+nav ul{
+  border-radius: 50px;
+  list-style-type:none;
+  display:flex;
+  border:20px solid rgb(236, 182, 182);
+  gap:20px;
+  height:30px;
+}
+
+
+li{
+  width:70px;
+  height:20px;
+  border:5px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color:aquamarine;
+  
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+} */
+section{
+    
+    background-image:url(iphone1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+th, td{
+    padding:15px;
+    text-align: left;
+}
+th{
+    background-color: #f0f0f0;
+}
+.finance-option{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.option {
+    border: 1px solid #f0f0f0;
+    padding: 20px; 
+    background-color: rgb(165, 167, 170);
+    border-radius: 20px;
+  }
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;  
+    border-radius: 50%;
+    
+  }
+  .accessories {
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+   
+}
+  .accessory {
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    background-color: rgb(165, 167, 170);
+    border-radius: 50%;
+  }
+  .branding {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 30px;
+    
+  }
+  
+  .brand {
+    border: 1px solid #f0f0f0;
+    padding: 20px; 
+    border-radius: 50%;
+    background-color: rgb(165, 167, 170);
+  }
+  footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 60px;
+    
+    background-color: #645656;
+    color: #fff;
+    padding: 20px;
+    
+    
+  }
+ .footer-section{
+  
+  display:grid;
+  justify-content: center;
+  background-color:rgb(94, 84, 84);
+ }
+  .move{
+    text-align: center;
+  }
+  .col{
+    background-color:rgb(92, 83, 83);
+  }
+  .footer-section ul{
+    list-style-type: none; 
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;  
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  @media only screen and (max-width: 768px) {
+
+    /* Styles for screens smaller than 768px */
+  
+    .hero {
+      grid-template-columns: 1fr;
+    }
+  
+    .finance, .accessories, .branding, footer {
+      grid-template-columns: 1fr; 
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.2em;
+    }
+    header nav ul{
+      display: flex;
+      flex-direction: column;
+    }
+  
+  }
+  
+
